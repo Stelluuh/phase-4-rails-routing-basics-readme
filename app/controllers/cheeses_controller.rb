@@ -1,9 +1,9 @@
 class CheesesController < ApplicationController
 
     def index
-        # cheeses = Cheese.all
-        # render json: cheeses
-        byebug
+        # byebug
+        cheeses = Cheese.all
+        render json: cheeses
     end
 
 end
